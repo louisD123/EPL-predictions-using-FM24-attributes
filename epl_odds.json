@@ -1,0 +1,737 @@
+[
+    {
+        "id": "5a8cba5d7d519405039a0b57f782015b",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-11-24T20:00:00Z",
+        "home_team": "Manchester United",
+        "away_team": "Everton",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Everton",
+                                "price": 4.22
+                            },
+                            {
+                                "name": "Manchester United",
+                                "price": 1.84
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.98
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4ba22059a9913039d2f57229dc72f4ea",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-11-29T15:00:00Z",
+        "home_team": "Sunderland",
+        "away_team": "Bournemouth",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Bournemouth",
+                                "price": 2.39
+                            },
+                            {
+                                "name": "Sunderland",
+                                "price": 3.09
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.43
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "08b50ad69ab9749cae69599e701880dd",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-11-29T15:00:00Z",
+        "home_team": "Brentford",
+        "away_team": "Burnley",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Brentford",
+                                "price": 1.51
+                            },
+                            {
+                                "name": "Burnley",
+                                "price": 6.33
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 4.61
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ed78df6eadace430b85a5455420d5b96",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-11-29T15:00:00Z",
+        "home_team": "Manchester City",
+        "away_team": "Leeds United",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Leeds United",
+                                "price": 9.8
+                            },
+                            {
+                                "name": "Manchester City",
+                                "price": 1.27
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 6.35
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4a5da60e08a50de268435d74d4eae61e",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-11-29T17:30:00Z",
+        "home_team": "Everton",
+        "away_team": "Newcastle United",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Everton",
+                                "price": 2.9
+                            },
+                            {
+                                "name": "Newcastle United",
+                                "price": 2.56
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.36
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "dc1ba74350071be58d2265b6060619f9",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-11-29T20:00:00Z",
+        "home_team": "Tottenham Hotspur",
+        "away_team": "Fulham",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Fulham",
+                                "price": 3.64
+                            },
+                            {
+                                "name": "Tottenham Hotspur",
+                                "price": 2.14
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.43
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "04a7592aee6053a0cc6034d8c87e38e2",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-11-30T12:00:00Z",
+        "home_team": "Crystal Palace",
+        "away_team": "Manchester United",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Crystal Palace",
+                                "price": 2.46
+                            },
+                            {
+                                "name": "Manchester United",
+                                "price": 2.82
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.67
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "22273cac8d549daacd616fb5f88c46de",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-11-30T14:05:00Z",
+        "home_team": "Aston Villa",
+        "away_team": "Wolverhampton Wanderers",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Aston Villa",
+                                "price": 1.53
+                            },
+                            {
+                                "name": "Wolverhampton Wanderers",
+                                "price": 6.14
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 4.53
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6c548b72cfa9aaf88eab8c2dba215c14",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-11-30T14:05:00Z",
+        "home_team": "Nottingham Forest",
+        "away_team": "Brighton and Hove Albion",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Brighton and Hove Albion",
+                                "price": 2.57
+                            },
+                            {
+                                "name": "Nottingham Forest",
+                                "price": 2.82
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.43
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b37d89515348a998944587dd33865308",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-11-30T14:05:00Z",
+        "home_team": "West Ham United",
+        "away_team": "Liverpool",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Liverpool",
+                                "price": 1.65
+                            },
+                            {
+                                "name": "West Ham United",
+                                "price": 4.94
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 4.36
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "06b4a94dad33597579c30e6901e2c008",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-11-30T16:30:00Z",
+        "home_team": "Chelsea",
+        "away_team": "Arsenal",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Arsenal",
+                                "price": 2.21
+                            },
+                            {
+                                "name": "Chelsea",
+                                "price": 3.52
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.37
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6b4b4bc11193310fdc12f84267d4196d",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-12-02T19:30:00Z",
+        "home_team": "Bournemouth",
+        "away_team": "Everton",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Bournemouth",
+                                "price": 2.06
+                            },
+                            {
+                                "name": "Everton",
+                                "price": 3.9
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.24
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "fc303e7b30ea1b0e2fa51bcdda1b221e",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-12-02T19:30:00Z",
+        "home_team": "Fulham",
+        "away_team": "Manchester City",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Fulham",
+                                "price": 4.73
+                            },
+                            {
+                                "name": "Manchester City",
+                                "price": 1.64
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 4.3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5c802f90c860b03d3ab259237d2b9867",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-12-02T20:15:00Z",
+        "home_team": "Newcastle United",
+        "away_team": "Tottenham Hotspur",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Newcastle United",
+                                "price": 1.72
+                            },
+                            {
+                                "name": "Tottenham Hotspur",
+                                "price": 4.43
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 4.03
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "8c2dd4688aa09a78ab09931b177d48ca",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-12-03T19:30:00Z",
+        "home_team": "Arsenal",
+        "away_team": "Brentford",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Arsenal",
+                                "price": 1.3
+                            },
+                            {
+                                "name": "Brentford",
+                                "price": 8.86
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 5.63
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "92a343316916b520fd018e0008093e2d",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-12-03T19:30:00Z",
+        "home_team": "Brighton and Hove Albion",
+        "away_team": "Aston Villa",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Aston Villa",
+                                "price": 3.17
+                            },
+                            {
+                                "name": "Brighton and Hove Albion",
+                                "price": 2.25
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.45
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "eda63e202713a053c34a4cca584b37bd",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-12-03T19:30:00Z",
+        "home_team": "Burnley",
+        "away_team": "Crystal Palace",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Burnley",
+                                "price": 4.58
+                            },
+                            {
+                                "name": "Crystal Palace",
+                                "price": 1.72
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.94
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ba8f89df5d05bacfaad76adfcf2c3608",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-12-03T19:30:00Z",
+        "home_team": "Wolverhampton Wanderers",
+        "away_team": "Nottingham Forest",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Nottingham Forest",
+                                "price": 2.31
+                            },
+                            {
+                                "name": "Wolverhampton Wanderers",
+                                "price": 3.17
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.31
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5b79d1ed999818f6e8a58d95a0468804",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-12-03T20:15:00Z",
+        "home_team": "Leeds United",
+        "away_team": "Chelsea",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Chelsea",
+                                "price": 1.79
+                            },
+                            {
+                                "name": "Leeds United",
+                                "price": 4.06
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.98
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "aae6efdb1e421bc3c94e2b9635853e21",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-12-03T20:15:00Z",
+        "home_team": "Liverpool",
+        "away_team": "Sunderland",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Liverpool",
+                                "price": 1.34
+                            },
+                            {
+                                "name": "Sunderland",
+                                "price": 7.94
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 5.4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "829c33f27898d96c181850b3e01e936d",
+        "sport_key": "soccer_epl",
+        "sport_title": "EPL",
+        "commence_time": "2025-12-04T20:00:00Z",
+        "home_team": "Manchester United",
+        "away_team": "West Ham United",
+        "bookmakers": [
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2025-11-24T17:03:02Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-11-24T17:03:02Z",
+                        "outcomes": [
+                            {
+                                "name": "Manchester United",
+                                "price": 1.41
+                            },
+                            {
+                                "name": "West Ham United",
+                                "price": 6.49
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 5.15
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
