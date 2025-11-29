@@ -1,6 +1,8 @@
 import os
 from sqlalchemy import create_engine
 from dotenv import load_dotenv
+import extract
+import transform
 
 load_dotenv()
 
@@ -18,3 +20,14 @@ def get_engine():
 
     url = f"postgresql://{user}:{password}@{host}:{port}/{db}"
     return create_engine(url)
+
+
+
+
+
+if __name__ == "__main__":
+    engine = get_engine()
+    extract.run_extract(engine)
+    transform.run_transform(engine)
+
+

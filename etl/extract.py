@@ -18,3 +18,18 @@ def load_csv_to_db(csv_path: str, table_name: str, engine):
 
 
 
+
+def run_extract(engine):
+    
+
+    load_csv_to_db( "data/attributes.csv" , "players" , engine )
+    load_csv_to_db("data/epl.csv", "matches", engine)
+
+    print("✔ Table loaded into pgsql")
+
+
+if __name__ == "__main__":
+    from run_pipeline import get_engine
+    engine = get_engine()
+    run_extract(engine)
+
