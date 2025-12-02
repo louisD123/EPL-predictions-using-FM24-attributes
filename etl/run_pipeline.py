@@ -3,6 +3,7 @@ from sqlalchemy import create_engine
 from dotenv import load_dotenv
 import extract
 import transform
+import load
 
 load_dotenv()
 
@@ -29,5 +30,6 @@ if __name__ == "__main__":
     engine = get_engine()
     extract.run_extract(engine)
     transform.run_transform(engine)
+    load.run_load(engine)
 
 

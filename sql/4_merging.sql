@@ -1,3 +1,5 @@
+
+CREATE TABLE train AS
 SELECT 
     m.*,  -- all columns from matches
     th.cor_avg    AS home_cor_avg,
