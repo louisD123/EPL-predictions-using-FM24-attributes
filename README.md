@@ -6,19 +6,18 @@ This repository is meant as a learning experience for building more professional
 ## Current work
 
 - Toy pgsql ETL pipelines using small, manually collected data and free APIs.
-  - E : 
-  - T : Running various SQL scripts to clean/merge the data
-  - L : Saving to .csv and uploading to a data warehouse.
-- PCA reduced features
+- Feature enginnering : PCA reduced features vs AVG attributes vs etc.
 - Model training/testing 
-- Static model dashboard deployment
+- *Static* model dashboard deployment using Streamline
 
   
 ## Future updates
 
 - More data: scraping scripts and better ETL pipelines
-- 
--
+- *Dynamic* model dashboard deployment
+
+
+## Past work
 
 
 A more primitive early version of this work (implemented as messy R notebooks) is included in the attached PDF.
