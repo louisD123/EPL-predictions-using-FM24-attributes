@@ -1,10 +1,31 @@
 
 # About the project
 
-This repository is meant as a learning experience for building more professional and well-structured data science projects. The final goal is to develop a full end-to-end ML pipeline and deploy it on the web;  currently, only the ETL pipeline is mostly complete. A more primitive early version of this work (implemented as messy R notebooks) is included in the attached PDF.
+This repository is meant as a learning experience for building more professional and well-structured data science projects. The final goal is to develop a full end-to-end ML pipeline and deploy it on the web.
+
+
+Currently, only a toy version of ETL pipeline is mostly complete. A more primitive early version of this work (implemented as messy R notebooks) is included in the attached PDF.
 
 # More details
-In short: the game Football Manager 24 provides detailed attribute ratings for almost every professional football player. There are about 30 attributes, such as speed, passing, finishing, etc. Combined with extensive match-history data, these attributes offer a convenient way to generate meaningful features for machine learning models.
+
+## The features 
+In short: the game Football Manager 24 provides detailed attribute ratings for almost every professional football player. There are about 30 attributes, such as speed, passing, finishing, etc. 
+
+<img width="967" height="729" alt="image" src="https://github.com/user-attachments/assets/14f886b9-cb98-4cdf-81b3-58394b62eb15" />
+
+These attributes offer a convenient way to generate meaningful features for machine learning models.
+
+## The training data
+
+Records of previous games and advanced game statistcs can be freely found online. To avoid a scraping procedures I use data from fbref , which can be exported without too much issues.
+
+
+<img width="1035" height="525" alt="image" src="https://github.com/user-attachments/assets/dc0e77ec-7bdc-4dad-a21c-6526523ccbb7" />
+
+
+## The targets
+
+
 
 # The ETL pipeline
 
