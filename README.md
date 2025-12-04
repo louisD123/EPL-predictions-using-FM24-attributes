@@ -54,15 +54,13 @@ Currently the data is collected manually:
 
 - Past match statistcs are copy pasted from fbref.  
 
-
-# Features and targets
-
-The commbination of the two previous two lead to the training data:
-
-- the targets can be choosen to be *win/draw/lose* probabilites , home_xG, away_xG , home_goals , away_goals, etc.
-- and the features are home,away team rankings that are some functions of the FM24 attributes.
-
 # Models
+
+
+**Baseline**: Random Forest, XGBoost  
+**Experiments**:  
+**Targets**: win/draw/lose probabilities, xG prediction, goal counts  
+**Features**: aggregated FM24 attributes (PCA, averages, engineered features)
 
 # Dashboards and Deployement
 
