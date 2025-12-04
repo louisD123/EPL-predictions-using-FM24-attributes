@@ -6,7 +6,7 @@ This repository is meant as a learning experience for building more professional
 ## Current work
 
 - Toy pgsql ETL pipelines using small, manually collected data and free APIs.
-- Feature enginnering : PCA reduced features vs AVG attributes vs etc.
+- Feature engineering experiments (PCA-reduced features vs. raw averages vs. hybrid representations)
 - Model training/testing 
 - *Static* model dashboard deployment using Streamline
 
@@ -46,12 +46,6 @@ Currently the data is collected manually:
 - FM24 data cannot be exported en masse, rather it requires running the game, selecting appropriate filters and exporting data.
 
 - Past match statistcs are copy pasted from fbref.  
-
-
-In the future, to allow for more scalability: 
-
-- automated python scripts are envisaged for FM24 data extraction
-- scraping procedures for more advanced statistics (big chances, shots on target, corners, etc.)
 
 
 # Features and targets
