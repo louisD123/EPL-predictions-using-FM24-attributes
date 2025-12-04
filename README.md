@@ -4,9 +4,24 @@
 
 An end-to-end football prediction pipeline using FM24 player attributes +
 past match statistics. Includes ETL, feature engineering, machine learning
-models, and dashboards for visualizing predictions.
+models, and dashboards for visualizing predictions and comparisons with bookmaker odds.
 
-Meant as a learning experience for building more professional and well-structured data science projects.
+
+
+
+## Motivation
+
+Primarily meant as a learning experience for building more professional and well-structured data science projects. 
+
+From a sports betting perspective it is very interesting to explore the predictive power of video game stats.
+
+
+<details>
+  <summary>Click to expand: More on Sports betting market efficiency </summary>
+</details>
+
+## Tech used
+python, SQL, PostgreSQL
 
 
 ## Current work
@@ -34,9 +49,10 @@ A more primitive early version of this work (implemented as messy R notebooks) i
 ## FM24 attributes
 The game Football Manager 24 provides detailed attribute ratings for almost every professional football player. There are about 30 attributes, such as speed, passing, finishing, etc. 
 
-<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/14f886b9-cb98-4cdf-81b3-58394b62eb15" />
+<img width="819" height="562" alt="image" src="https://github.com/user-attachments/assets/0172bd6b-9a50-4540-8c6f-fb77c2ac287d" />
 
-These attributes offer a convenient way to generate meaningful features for machine learning models.
+
+
 
 ## Past match statistics
 
