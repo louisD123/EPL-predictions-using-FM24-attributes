@@ -26,7 +26,7 @@ python, pandas, Streamlit, SQL, PostgreSQL
 
 ## Current work
 
-- Toy pgsql ETL pipelines using small, manually collected data and free APIs.
+- Focusing only on one league (EPL). Toy pgsql ETL pipelines using small, manually collected data and free APIs. 
 - Feature engineering experiments (PCA-reduced features vs. raw averages vs. hybrid representations)
 - Model training/testing. Variable importance.
 - *Static* model dashboard deployment using Streamline
@@ -35,8 +35,8 @@ python, pandas, Streamlit, SQL, PostgreSQL
   
 ## Future updates
 
-- More data: scraping scripts and better ETL pipelines
-- *Dynamic* model dashboard deployment
+- More data: expanding to top 10 leagues + nation football. Scraping scripts and better ETL pipelines to be made...
+- *Dynamic* model dashboard deployment (re-train manually every month). Setting up a REST API. 
 
 
 ## Past work
@@ -65,10 +65,15 @@ A more primitive early version of this work (implemented as messy R notebooks) i
 ## Past match statistics
 
 - Past match results and advanced metrics (xG, shots, referees, etc.)
-- Exported by copy pasting
 
 
-<img width="1035" height="525" alt="image" src="https://github.com/user-attachments/assets/dc0e77ec-7bdc-4dad-a21c-6526523ccbb7" />
+<details>
+  <summary> Exported by copy pasting from fbref </summary>
+ <img width="1035" height="525" alt="image" src="https://github.com/user-attachments/assets/dc0e77ec-7bdc-4dad-a21c-6526523ccbb7" />
+
+</details>
+
+
 
   
 
