@@ -36,7 +36,7 @@ python, pandas, Streamlit, SQL, PostgreSQL
 ## Future updates
 
 - More data: expanding to top 10 leagues + nation football. Scraping scripts and better ETL pipelines to be made...
-- *Dynamic* model dashboard deployment (re-train manually every month). Setting up a REST API. 
+- *Dynamic* model dashboard deployment (re-train manually every month). Setting up a REST API and/or a website.
 
 
 ## Past work
