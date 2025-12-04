@@ -1,7 +1,13 @@
 
 # About the project
 
-This repository is meant as a learning experience for building more professional and well-structured data science projects. The final goal is to **develop and deploy a dynamic end-to-end ML model that predicts football statistics/probabilities** and compares them to the predictions of the leading bookmakers.
+An end-to-end football prediction pipeline using FM24 player attributes +
+fbref match statistics. Includes ETL, feature engineering, machine learning
+models, and dashboards for visualizing predictions.
+
+
+
+
 
 ## Current work
 
@@ -55,11 +61,8 @@ The commbination of the two previous two lead to the training data:
 - the targets can be choosen to be *win/draw/lose* probabilites , home_xG, away_xG , home_goals , away_goals, etc.
 - and the features are home,away team rankings that are some functions of the FM24 attributes.
 
+# Models
+
+# Dashboards and Deployement
 
 
-
-
-# The ETL pipeline
-
-The extraction stage involves Python scripts that scrape FM24 player data in bulk, alongside collecting historical match data via free APIs.
-The transformation stage automates SQL scripts for data cleaning and basic feature engineering. Finally, the loading stage stores all processed data in a database/CSV and sends it to a dashboard for visualization.
