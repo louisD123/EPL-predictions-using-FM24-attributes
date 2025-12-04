@@ -2,7 +2,7 @@
 # About the project
 
 
-An end-to-end football prediction pipeline using FM24 player attributes +
+An end-to-end football prediction pipeline using Football Manger 24 player attributes +
 past match statistics. Includes ETL, feature engineering, machine learning
 models, and dashboards for visualizing predictions and comparisons with bookmaker odds.
 
@@ -11,13 +11,13 @@ models, and dashboards for visualizing predictions and comparisons with bookmake
 
 ## Motivation
 
-Primarily meant as a learning experience for building more professional and well-structured data science projects. 
+1. Primarily meant as a learning experience for building more professional and well-structured data science projects. 
 
-From a sports betting perspective it is very interesting to explore the predictive power of video game stats.
+2. From a sports betting perspective it is very interesting to explore the predictive power of video game stats and how they compare to market odds.
 
 
 <details>
-  <summary>Click to expand: More on Sports betting market efficiency </summary>
+  <summary> More on Sports betting market efficiency </summary>
 </details>
 
 ## Tech used
