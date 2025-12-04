@@ -8,27 +8,27 @@ models, and dashboards for visualizing predictions and comparisons with bookmake
 
 
 
-
 ## Motivation
 
 1. Primarily meant as a learning experience for building more professional and well-structured data science projects. 
 
-2. From a sports betting perspective it is very interesting to explore the predictive power of video game stats and how they compare to market odds.
+2. From a sports analytics perspective, it also explores an interesting question:
+How predictive are Football Manager (FM24) player attributes compared to real betting market odds?
 
 
 <details>
-  <summary> More on Sports betting market efficiency </summary>
+  <summary> More on sports betting market efficiency </summary>
 </details>
 
 ## Tech used
-python, SQL, PostgreSQL
+python, pandas, Streamlit, SQL, PostgreSQL
 
 
 ## Current work
 
 - Toy pgsql ETL pipelines using small, manually collected data and free APIs.
 - Feature engineering experiments (PCA-reduced features vs. raw averages vs. hybrid representations)
-- Model training/testing 
+- Model training/testing. Variable importance.
 - *Static* model dashboard deployment using Streamline
 
 
@@ -47,36 +47,36 @@ A more primitive early version of this work (implemented as messy R notebooks) i
 # The data
 
 ## FM24 attributes
-The game Football Manager 24 provides detailed attribute ratings for almost every professional football player. There are about 30 attributes, such as speed, passing, finishing, etc. 
-
-<img width="819" height="562" alt="image" src="https://github.com/user-attachments/assets/0172bd6b-9a50-4540-8c6f-fb77c2ac287d" />
 
 
+- ~30 player attributes (technical, mental, physical)
+- Exported manually from Football Manager 24
+
+
+<img width="833" height="554" alt="image" src="https://github.com/user-attachments/assets/4a4f4b30-5f93-4357-a119-57ffdfbe31da" />
+
+<details>
+  <summary> Attributes for goalkeepers </summary>
+</details>
 
 
 ## Past match statistics
 
-Records of previous games and advanced game statistcs can be freely found online. To avoid a scraping procedures or API retrieval setups **we use data from fbref**, which can be exported without too much issues.
+- Past match results and advanced metrics (xG, shots, referees, etc.)
+- Exported by copy pasting
 
 
 <img width="1035" height="525" alt="image" src="https://github.com/user-attachments/assets/dc0e77ec-7bdc-4dad-a21c-6526523ccbb7" />
 
-
-## Data collection
-
-Currently the data is collected manually: 
-
-- FM24 data cannot be exported en masse, rather it requires running the game, selecting appropriate filters and exporting data.
-
-- Past match statistcs are copy pasted from fbref.  
+  
 
 # Models
 
 
 **Baseline**: Random Forest, XGBoost  
-**Experiments**:  
+**Experiments**: CatBoost
 **Targets**: win/draw/lose probabilities, xG prediction, goal counts  
-**Features**: aggregated FM24 attributes (PCA, averages, engineered features)
+**Features**: aggregated FM24 attributes (PCA, averages, engineered features). More details in the EDA.ipynb.
 
 # Dashboards and Deployement
 
