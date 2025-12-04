@@ -20,7 +20,7 @@ How predictive are Football Manager (FM24) player attributes compared to real be
   <summary> More on sports betting market efficiency </summary>
 </details>
 
-## Tech used
+## Tech used + How it's made 
 python, pandas, Streamlit, SQL, PostgreSQL
 
 
@@ -56,7 +56,9 @@ A more primitive early version of this work (implemented as messy R notebooks) i
 <img width="833" height="554" alt="image" src="https://github.com/user-attachments/assets/4a4f4b30-5f93-4357-a119-57ffdfbe31da" />
 
 <details>
-  <summary> Attributes for goalkeepers </summary>
+  <summary> Keeper attributes are different ! (see example) </summary>
+  <img width="833" height="554" alt="image" src="https://github.com/user-attachments/assets/af35e871-d7f1-4f9e-9755-957ee63e6267" />
+
 </details>
 
 
