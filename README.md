@@ -27,7 +27,7 @@ python, pandas, Streamlit, SQL, PostgreSQL
 
 ## Current work
 
-- Focusing only on one league (EPL). Toy pgsql ETL pipelines using small, manually collected data and free APIs. 
+- Focusing only on one league (EPL). Manually collected data. Toy pgsql ETL pipelines using small, manually collected data and free APIs. 
 - Feature engineering experiments (PCA-reduced features vs. raw averages vs. hybrid representations)
 - Model training/testing. Variable importance.
 - Player & ML dashboards (per-player attributes, radar plots, model predictions), built and deployed using Streamlit.
@@ -37,7 +37,7 @@ python, pandas, Streamlit, SQL, PostgreSQL
 
 ## Future updates
 
-- More data: expanding to top 10 leagues + nation football. Scraping scripts and better ETL pipelines to be made...
+- More data: expanding to top 10 leagues + nation football. Extraction automation: scraping scripts and better ETL pipelines to be made...
 - Comparison with bookmaker odds
 - *Dynamic* model dashboard deployment (re-train manually every month). Setting up a REST API and/or a website.
 
@@ -53,7 +53,7 @@ A more primitive early version of this work (implemented as messy R notebooks) i
 
 
 - ~30 player attributes (technical, mental, physical)
-- Exported manually from Football Manager 24
+- Exported from Football Manager 24
 
 
 <img width="833" height="554" alt="image" src="https://github.com/user-attachments/assets/4a4f4b30-5f93-4357-a119-57ffdfbe31da" />
