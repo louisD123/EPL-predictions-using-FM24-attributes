@@ -32,8 +32,6 @@ python, pandas, Streamlit, SQL, PostgreSQL
 
 
 
-ML dashboard (model predictions
-
 
 ## Future updates
 
