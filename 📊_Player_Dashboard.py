@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
+import os
 
 # -------------------------------------------------
 # Basic page config
@@ -11,10 +12,14 @@ st.title("Player Attribute Dashboard")
 # -------------------------------------------------
 # Load Data
 # -------------------------------------------------
-df = pd.read_csv("attributes_with_images.csv")
 
-# FIX: Clean column names (important!)
+
+df = pd.read_csv("attributes_with_images.csv")
 df.columns = df.columns.str.strip()
+df["Photo"] = df["Photo"].str.replace("\\\\", "/", regex=True)
+df["ClubBadge"] = df["ClubBadge"].str.replace("\\\\", "/", regex=True)
+
+
 
 # -------------------------------------------------
 # Attribute Groups
@@ -185,9 +190,9 @@ st.markdown(panel_css, unsafe_allow_html=True)
 # ============================
 col_left, col_center, col_right = st.columns([1.4, 2.2, 1.4])
 
-# ============================
+# -----------------------------
 # LEFT PANEL: PLAYER INFO
-# ============================
+# -----------------------------
 with col_left:
     st.markdown("<div class='panel'>", unsafe_allow_html=True)
     st.markdown(f"<div class='panel-header'>{player_row['Name']}</div>", unsafe_allow_html=True)
@@ -195,18 +200,21 @@ with col_left:
     st.markdown("<div class='panel-body'>", unsafe_allow_html=True)
 
     # Row 1: Player photo
-    #st.markdown(f"{player_row['Name']}")
-    if "Photo" in df.columns:
-        st.image(player_row["Photo"], width=180)
+    photo_path = player_row.get("Photo", "photos/placeholder.png")
+    if photo_path and os.path.exists(photo_path):
+        st.image(photo_path, width=180)
     else:
-        st.write("No photo in CSV")
+        st.image("photos/placeholder.png", width=180)
+        st.write("No photo available for this player")
 
-    st.write("")  
+    st.write("")
 
-    # Row 2: Club name + badge
-    #st.markdown(f"{player_row['Club']}")
-    if "ClubBadge" in df.columns:
-        st.image(player_row["ClubBadge"], width=180)
+    # Row 2: Club badge
+    badge_path = player_row.get("ClubBadge", None)
+    if badge_path and os.path.exists(badge_path):
+        st.image(badge_path, width=180)
+    else:
+        st.write(f"No badge available for {player_row['Club']}")
 
     st.markdown("</div></div>", unsafe_allow_html=True)
 
