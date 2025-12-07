@@ -6,7 +6,9 @@ An end-to-end football prediction pipeline using Football Manger 24 player attri
 past match statistics. Includes ETL, feature engineering, machine learning
 models, and dashboards for visualizing players and predictions.
 
-You can view the dashboard (two Streamlit pages: Player Attributes + ML Predictions) here: 👉 https://epl-predictions-using-fm24-attributes-qmync3jwp3v44pf5szzvuf.streamlit.app/
+You can view the dashboard (two Streamlit pages: Player Attributes + ML Predictions) here: 
+
+👉 https://epl-predictions-using-fm24-attributes-qmync3jwp3v44pf5szzvuf.streamlit.app/
 
 
 
@@ -14,7 +16,8 @@ You can view the dashboard (two Streamlit pages: Player Attributes + ML Predicti
 
 1. Primarily meant as a learning experience for building more professional and well-structured data science projects. 
 
-2. From a sports analytics perspective, it also explores an interesting question: How predictive are Football Manager (FM24) player attributes ?
+2. From a sports analytics perspective, it also explores an interesting question:
+ How predictive are Football Manager (FM24) player attributes ?
 
 
 
