@@ -6,6 +6,8 @@ An end-to-end football prediction pipeline using Football Manger 24 player attri
 past match statistics. Includes ETL, feature engineering, machine learning
 models, and dashboards for visualizing predictions and comparisons with bookmaker odds.
 
+The dashboard (work in progess):  https://epl-predictions-using-fm24-attributes-qmync3jwp3v44pf5szzvuf.streamlit.app/
+
 
 
 ## Motivation
@@ -16,9 +18,6 @@ models, and dashboards for visualizing predictions and comparisons with bookmake
 How predictive are Football Manager (FM24) player attributes compared to real betting market odds?
 
 
-<details>
-  <summary> More on sports betting market efficiency </summary>
-</details>
 
 ## Tech used + How it's made 
 python, pandas, Streamlit, SQL, PostgreSQL
