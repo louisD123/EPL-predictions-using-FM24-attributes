@@ -28,10 +28,13 @@ python, pandas, Streamlit, SQL, PostgreSQL
 - Focusing only on one league (EPL). Toy pgsql ETL pipelines using small, manually collected data and free APIs. 
 - Feature engineering experiments (PCA-reduced features vs. raw averages vs. hybrid representations)
 - Model training/testing. Variable importance.
-- *Static* model dashboard deployment using Streamlit
+- Player & ML dashboards (per-player attributes, radar plots, model predictions), built and deployed using Streamlit.
 
 
-  
+
+ML dashboard (model predictions
+
+
 ## Future updates
 
 - More data: expanding to top 10 leagues + nation football. Scraping scripts and better ETL pipelines to be made...
