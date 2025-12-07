@@ -6,7 +6,7 @@ An end-to-end football prediction pipeline using Football Manger 24 player attri
 past match statistics. Includes ETL, feature engineering, machine learning
 models, and dashboards for visualizing players and predictions.
 
-A live demo of the project is available here: https://epl-predictions-using-fm24-attributes-qmync3jwp3v44pf5szzvuf.streamlit.app/
+You can view the dashboard (two Streamlit pages: Player Attributes + ML Predictions) here: 👉 https://epl-predictions-using-fm24-attributes-qmync3jwp3v44pf5szzvuf.streamlit.app/
 
 
 
