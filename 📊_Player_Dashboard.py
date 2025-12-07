@@ -21,6 +21,22 @@ df["ClubBadge"] = df["ClubBadge"].str.replace("\\\\", "/", regex=True)
 
 
 
+# Safe image loader that works locally & on Streamlit Cloud
+def safe_image(path, width=180):
+    if not path or not isinstance(path, str):
+        st.image("photos/placeholder.png", width=width)
+        return
+
+    # Normalise Windows backslashes → forward slashes
+    fixed_path = path.replace("\\", "/")
+
+    # Check local file exists
+    if os.path.exists(fixed_path):
+        st.image(fixed_path, width=width)
+    else:
+        st.image("photos/placeholder.png", width=width)
+
+
 # -------------------------------------------------
 # Attribute Groups
 # -------------------------------------------------
@@ -190,33 +206,27 @@ st.markdown(panel_css, unsafe_allow_html=True)
 # ============================
 col_left, col_center, col_right = st.columns([1.4, 2.2, 1.4])
 
-# -----------------------------
+# ============================
 # LEFT PANEL: PLAYER INFO
-# -----------------------------
+# ============================
 with col_left:
     st.markdown("<div class='panel'>", unsafe_allow_html=True)
     st.markdown(f"<div class='panel-header'>{player_row['Name']}</div>", unsafe_allow_html=True)
 
     st.markdown("<div class='panel-body'>", unsafe_allow_html=True)
 
-    # Row 1: Player photo
-    photo_path = player_row.get("Photo", "photos/placeholder.png")
-    if photo_path and os.path.exists(photo_path):
-        st.image(photo_path, width=180)
-    else:
-        st.image("photos/placeholder.png", width=180)
-        st.write("No photo available for this player")
+    # --- Player photo ---
+    photo_path = player_row.get("Photo", None)
+    safe_image(photo_path, width=180)
 
     st.write("")
 
-    # Row 2: Club badge
+    # --- Club badge ---
     badge_path = player_row.get("ClubBadge", None)
-    if badge_path and os.path.exists(badge_path):
-        st.image(badge_path, width=180)
-    else:
-        st.write(f"No badge available for {player_row['Club']}")
+    safe_image(badge_path, width=180)
 
     st.markdown("</div></div>", unsafe_allow_html=True)
+
 
 
 
