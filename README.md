@@ -27,7 +27,7 @@ python, pandas, Streamlit, SQL, PostgreSQL
 
 ## Current work
 
-- Focusing only on one league (EPL). Manually collected data. Toy pgsql ETL pipelines using small, manually collected data and free APIs. 
+- Focusing only on one league (EPL). Manually collected data. Toy pgsql ETL pipelines. 
 - Feature engineering experiments (PCA-reduced features vs. raw averages vs. hybrid representations)
 - Model training/testing. Variable importance.
 - Player & ML dashboards (per-player attributes, radar plots, model predictions), built and deployed using Streamlit.
