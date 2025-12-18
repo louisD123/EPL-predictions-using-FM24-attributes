@@ -10,6 +10,10 @@ You can view the dashboard (two Streamlit pages: Player Attributes + ML Predicti
 
 👉 https://epl-predictions-using-fm24-attributes-qmync3jwp3v44pf5szzvuf.streamlit.app/
 
+1X (home double chance) predictions here (very close to Pinnacle's odds):
+
+👉 https://home-doublechance.streamlit.app/
+
 
 
 ## Motivation
