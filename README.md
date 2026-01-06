@@ -87,7 +87,7 @@ A more primitive early version of this work (implemented as messy R notebooks) i
 # Models
 
 
-**Baseline**: Random Forest, XGBoost  
+**Baseline**: Random Forest  
 **Experiments**: CatBoost
 **Targets**: win/draw/lose probabilities, xG prediction, goal counts  
 **Features**: aggregated FM24 attributes (PCA, averages, engineered features). More details in the EDA.ipynb.
